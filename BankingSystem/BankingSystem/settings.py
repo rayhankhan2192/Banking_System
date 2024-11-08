@@ -53,6 +53,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'BankingSystem.urls'
+AUTH_USER_MODEL = 'accounts.User'
 
 TEMPLATES = [
     {
